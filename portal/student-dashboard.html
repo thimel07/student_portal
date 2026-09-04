@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Student Dashboard | GUB
+    </title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link rel="stylesheet"
+          href="css/dashboard.css">
+
+</head>
+
+
+<body>
+
+
+<header class="dashboard-header">
+
+    <div class="container nav">
+
+
+        <a
+            class="logo"
+            href="student-dashboard.html">
+
+            <div class="logo-mark">
+                G
+            </div>
+
+            <div>
+
+                <strong>
+                    GUB
+                </strong>
+
+                <span>
+                    Student Portal
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <button
+            id="logoutBtn"
+            class="btn btn-outline">
+
+            Logout
+
+        </button>
+
+
+    </div>
+
+</header>
+
+
+
+<main class="dashboard">
+
+<div class="container">
+
+
+    <!-- WELCOME -->
+
+    <section class="welcome">
+
+        <div>
+
+            <span class="eyebrow">
+                STUDENT DASHBOARD
+            </span>
+
+            <h1>
+
+                Welcome,
+
+                <span id="studentName">
+                    Student
+                </span>
+
+                👋
+
+            </h1>
+
+            <p>
+                Here is your academic overview.
+            </p>
+
+        </div>
+
+
+        <div
+            class="profile-badge"
+            id="studentIdDisplay">
+
+            ST001
+
+        </div>
+
+    </section>
+
+
+
+    <!-- STATISTICS -->
+
+    <div class="dashboard-cards">
+
+
+        <div class="dash-card">
+
+            <span>📚</span>
+
+            <strong>
+                4
+            </strong>
+
+            <small>
+                Enrolled Courses
+            </small>
+
+        </div>
+
+
+
+        <div class="dash-card">
+
+            <span>📢</span>
+
+            <strong id="dashNoticeCount">
+                0
+            </strong>
+
+            <small>
+                Notices
+            </small>
+
+        </div>
+
+
+
+        <div class="dash-card">
+
+            <span>📝</span>
+
+            <strong>
+                3
+            </strong>
+
+            <small>
+                Assignments
+            </small>
+
+        </div>
+
+
+
+        <div class="dash-card">
+
+            <span>⭐</span>
+
+            <strong>
+                3.72
+            </strong>
+
+            <small>
+                Current CGPA
+            </small>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- CONTENT -->
+
+    <div class="content-grid">
+
+
+        <section class="panel">
+
+            <div class="panel-title">
+
+                <h2>
+                    My Courses
+                </h2>
+
+            </div>
+
+
+            <div
+                id="courseList"
+                class="course-list">
+
+            </div>
+
+        </section>
+
+
+
+        <section class="panel">
+
+            <div class="panel-title">
+
+                <h2>
+                    Latest Notices
+                </h2>
+
+            </div>
+
+
+            <div id="studentNotices">
+
+            </div>
+
+        </section>
+
+
+    </div>
+
+</div>
+
+</main>
+
+
+<script src="js/student-dashboard.js"></script>
+
+</body>
+
+</html>

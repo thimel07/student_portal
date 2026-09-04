@@ -1,0 +1,17 @@
+[
+    {
+        "id": "T001",
+        "name": "Dr. Ahmed Rahman",
+        "department": "Computer Science and Engineering",
+        "designation": "Associate Professor",
+        "password": "1234"
+    },
+
+    {
+        "id": "T002",
+        "name": "Ms. Farzana Akter",
+        "department": "Computer Science and Engineering",
+        "designation": "Assistant Professor",
+        "password": "5678"
+    }
+]

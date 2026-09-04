@@ -1,0 +1,28 @@
+[
+    {
+        "id": "ST001",
+        "name": "Tasnimul Hasan",
+        "department": "Computer Science and Engineering",
+        "semester": "6th Semester",
+        "batch": "242",
+        "password": "1234"
+    },
+
+    {
+        "id": "ST002",
+        "name": "Rahim Ahmed",
+        "department": "Computer Science and Engineering",
+        "semester": "5th Semester",
+        "batch": "243",
+        "password": "5678"
+    },
+
+    {
+        "id": "ST003",
+        "name": "Nusrat Jahan",
+        "department": "Electrical and Electronic Engineering",
+        "semester": "4th Semester",
+        "batch": "244",
+        "password": "1111"
+    }
+]

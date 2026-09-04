@@ -1,0 +1,33 @@
+[
+    {
+        "code": "CSE302",
+        "name": "Web Programming Lab",
+        "teacher": "Dr. Ahmed Rahman",
+        "credits": 1.5,
+        "students": 32
+    },
+
+    {
+        "code": "CSE303",
+        "name": "Microprocessor",
+        "teacher": "Ms. Farzana Akter",
+        "credits": 3,
+        "students": 28
+    },
+
+    {
+        "code": "CSE304",
+        "name": "Database Management System",
+        "teacher": "Dr. Ahmed Rahman",
+        "credits": 3,
+        "students": 30
+    },
+
+    {
+        "code": "CSE305",
+        "name": "Software Engineering",
+        "teacher": "Dr. Ahmed Rahman",
+        "credits": 3,
+        "students": 26
+    }
+]

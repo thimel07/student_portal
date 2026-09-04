@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Teacher Dashboard | GUB
+    </title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link rel="stylesheet"
+          href="css/dashboard.css">
+
+</head>
+
+
+<body>
+
+
+<header class="dashboard-header">
+
+    <div class="container nav">
+
+
+        <a
+            class="logo"
+            href="teacher-dashboard.html">
+
+            <div class="logo-mark">
+                G
+            </div>
+
+            <div>
+
+                <strong>
+                    GUB
+                </strong>
+
+                <span>
+                    Teacher Portal
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <button
+             id="logoutBtn"
+             class="btn btn-outline">
+
+                 Logout
+
+        </button>
+
+
+    </div>
+
+</header>
+
+
+
+<main class="dashboard">
+
+<div class="container">
+
+
+    <!-- WELCOME -->
+
+    <section class="welcome">
+
+        <div>
+
+            <span class="eyebrow">
+                TEACHER DASHBOARD
+            </span>
+
+            <h1>
+
+                Welcome,
+
+                <span id="teacherName">
+                    Teacher
+                </span>
+
+                👋
+
+            </h1>
+
+            <p>
+                Manage your teaching and
+                academic activities.
+            </p>
+
+        </div>
+
+
+        <div
+            class="profile-badge"
+            id="teacherIdDisplay">
+
+            T001
+
+        </div>
+
+    </section>
+
+
+
+    <!-- STATISTICS -->
+
+    <div class="dashboard-cards">
+
+
+        <div class="dash-card">
+
+            <span>📘</span>
+
+            <strong>
+                3
+            </strong>
+
+            <small>
+                My Courses
+            </small>
+
+        </div>
+
+
+
+        <div class="dash-card">
+
+            <span>👨‍🎓</span>
+
+            <strong>
+                84
+            </strong>
+
+            <small>
+                Students
+            </small>
+
+        </div>
+
+
+
+        <div class="dash-card">
+
+            <span>📢</span>
+
+            <strong id="teacherNoticeCount">
+                0
+            </strong>
+
+            <small>
+                University Notices
+            </small>
+
+        </div>
+
+
+
+        <div class="dash-card">
+
+            <span>📋</span>
+
+            <strong>
+                5
+            </strong>
+
+            <small>
+                Pending Tasks
+            </small>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- CONTENT -->
+
+    <div class="content-grid">
+
+
+        <section class="panel">
+
+            <div class="panel-title">
+
+                <h2>
+                    My Courses
+                </h2>
+
+            </div>
+
+
+            <div
+                id="teacherCourseList"
+                class="course-list">
+
+            </div>
+
+        </section>
+
+
+
+        <section class="panel">
+
+            <div class="panel-title">
+
+                <h2>
+                    Quick Actions
+                </h2>
+
+            </div>
+
+
+            <div class="action-grid">
+
+                <button class="action-btn">
+                    📢
+                    <span>
+                        Post Notice
+                    </span>
+                </button>
+
+
+                <button class="action-btn">
+                    📝
+                    <span>
+                        Assignment
+                    </span>
+                </button>
+
+
+                <button class="action-btn">
+                    👨‍🎓
+                    <span>
+                        Student List
+                    </span>
+                </button>
+
+
+                <button class="action-btn">
+                    📅
+                    <span>
+                        Routine
+                    </span>
+                </button>
+
+            </div>
+
+
+            <div class="teacher-notice-box">
+
+                <h3>
+                    Latest Notices
+                </h3>
+
+                <div id="teacherNotices">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </div>
+
+</div>
+
+</main>
+
+
+<script src="js/teacher-dashboard.js"></script>
+
+</body>
+
+</html>
